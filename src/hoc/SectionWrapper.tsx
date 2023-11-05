@@ -19,3 +19,5 @@ export const SectionWrapper = (Component: React.FC, idName: string) =>
       </motion.section>
     );
   };
+
+export default SectionWrapper;
