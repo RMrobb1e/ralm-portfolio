@@ -11,6 +11,7 @@ type TComputersProps = {
 
 const Computers = ({ isMobile }: TComputersProps) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
@@ -32,7 +33,7 @@ const Computers = ({ isMobile }: TComputersProps) => {
     </mesh>
   );
 };
-// TODO: Fix scroll issue
+
 const ComputerCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -53,6 +54,7 @@ const ComputerCanvas = () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
+
   return (
     <Canvas
       frameloop="demand"
@@ -69,8 +71,8 @@ const ComputerCanvas = () => {
         />
         <Computers isMobile={isMobile} />
       </Suspense>
+
       <Preload all />
-      <OrbitControls />
     </Canvas>
   );
 };
