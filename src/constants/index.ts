@@ -18,9 +18,12 @@ import {
   accenture,
   amdocs,
   ing,
-  carrent,
-  jobit,
-  tripguide,
+  brewhaha,
+  budgetapp,
+  covid,
+  cuisina,
+  devconnector,
+  revents,
   threejs,
   indra,
 } from "../assets";
@@ -191,9 +194,31 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "RALM - Revents",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created a full-stack events scheduling web application. Used ReactJS, React-Redux, Semantic UI, and Google Firebase & Firestore",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "semanticui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: revents,
+    source_code_link: "https://github.com/",
+    site_link: "https://ralm-revents-c7c22.web.app/events",
+  },
+  {
+    name: "RALM - DevConnector",
+    description:
+      "Created a web-app for developers to socialize using the following technology: MongoDB, ExpressJS, ReactJS, React-Redux, NodeJS.",
     tags: [
       {
         name: "react",
@@ -204,45 +229,69 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: devconnector,
     source_code_link: "https://github.com/",
+    site_link: "https://ralm-devconnector.herokuapp.com/",
   },
   {
-    name: "Job IT",
+    name: "RALM - BrewHaha",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a full-stack e-commerce app as a one stop beer shop. Use ReactJS, GraphQL, Strapi, Stripe, & Gestalt as frontend library.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "graphql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "strapi",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: brewhaha,
     source_code_link: "https://github.com/",
+    site_link: "https://ralm-brewhaha.herokuapp.com/",
   },
   {
-    name: "Trip Guide",
+    name: "RALM - Cuisina",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Created a full-stack cuisine web application. Used VanillaJS, Axios, CSS3 & Forkify API.",
     tags: [
       {
-        name: "nextjs",
+        name: "axios",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cuisina,
+    source_code_link: "https://github.com/",
+    site_link: "https://ralmcuisina.vercel.app/#29159",
+  },
+  {
+    name: "RALM - Budget App",
+    description:
+      "Created a frontend budget web application. Used Javascript, HTML, CSS.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -250,8 +299,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: budgetapp,
     source_code_link: "https://github.com/",
+    site_link: "https://ralmbudgetapp.vercel.app/",
+  },
+  {
+    name: "RALM - Covid 19 Tracker",
+    description:
+      "Created a frontend covid19 tracker web application. Used lit-element, lit-html, and Rapid API.",
+    tags: [
+      {
+        name: "lit-element",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "lit-html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: covid,
+    source_code_link: "https://github.com/",
+    site_link: "https://app-tracker-robbie.herokuapp.com/",
   },
 ];
 

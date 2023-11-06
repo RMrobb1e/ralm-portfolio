@@ -26,9 +26,12 @@ import amdocs from "./company/amdocs.png";
 import ing from "./company/ing.png";
 import indra from "./company/indra.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import brewhaha from "./brewhaha.png";
+import budgetapp from "./budgetapp.png";
+import covid from "./covid.png";
+import cuisina from "./cuisina.png";
+import devconnector from "./devconnector.png";
+import revents from "./revents.png";
 
 export {
   logo,
@@ -55,8 +58,11 @@ export {
   accenture,
   amdocs,
   ing,
-  carrent,
-  jobit,
-  tripguide,
   indra,
+  brewhaha,
+  budgetapp,
+  covid,
+  cuisina,
+  devconnector,
+  revents,
 };

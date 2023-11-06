@@ -30,8 +30,9 @@ const Ball = ({ imgUrl }: TBallProps) => {
         />
         <Decal
           position={[0, 0, 1]}
-          map={decal}
           rotation={[2 * Math.PI, 0, 6.25]}
+          scale={1}
+          map={decal}
         />
       </mesh>
     </Float>
@@ -44,9 +45,15 @@ type TBallCanvasProps = {
 
 const BallCanvas = ({ icon }: TBallCanvasProps) => {
   return (
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
+        <OrbitControls
+          enableZoom={false}
+          minPolarAngle={Math.PI / 4}
+          maxPolarAngle={Math.PI / 1.35}
+          minAzimuthAngle={-Math.PI / 4}
+          maxAzimuthAngle={Math.PI / 4}
+        />
         <Ball imgUrl={icon} />
       </Suspense>
 
