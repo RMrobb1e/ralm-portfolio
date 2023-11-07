@@ -63,7 +63,7 @@ export const zoomIn = (delay: number, duration: number) => {
 
 export const slideIn = (
   direction: number | string,
-  type: number,
+  type: number | string,
   delay: number,
   duration: number
 ) => {
