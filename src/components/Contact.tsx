@@ -7,10 +7,10 @@ import { EarthCanvas } from "./canvas";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const formRef = useRef();
+  const formRef = useRef(null);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [loading, setLoading] = useState(false);
-  const handleChange = (e: { target: any }) => {
+  const handleChange = (e: { target: { value: string; name: string } }) => {
     const { target } = e;
     const { name, value } = target;
 
