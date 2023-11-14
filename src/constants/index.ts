@@ -26,6 +26,7 @@ import {
   revents,
   threejs,
   indra,
+  ralm_shop,
 } from "../assets";
 
 export const navLinks = [
@@ -196,7 +197,7 @@ const projects = [
   {
     name: "RALM - Revents",
     description:
-      "Created a full-stack events scheduling web application. Used ReactJS, React-Redux, Semantic UI, and Google Firebase & Firestore",
+      "Created a full-stack events scheduling web application. Used ReactJS, React-Redux, Semantic UI, and Google Firebase & Firestore.",
     tags: [
       {
         name: "react",
@@ -212,8 +213,30 @@ const projects = [
       },
     ],
     image: revents,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RMrobb1e/ralm-revents",
     site_link: "https://ralm-revents-c7c22.web.app/events",
+  },
+  {
+    name: "RALM - Shop",
+    description:
+      "Created an e-commerce shop with full featured shopping cart, admin panel and many more using mern aws s3 and paypal api.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "paypal",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ralm_shop,
+    source_code_link: "https://github.com/RMrobb1e/ralm-shop",
+    site_link: "https://ralm-shop.onrender.com/",
   },
   {
     name: "RALM - DevConnector",
@@ -278,7 +301,7 @@ const projects = [
       },
     ],
     image: cuisina,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RMrobb1e/ralmcuisina",
     site_link: "https://ralmcuisina.vercel.app/#29159",
   },
   {
@@ -300,7 +323,7 @@ const projects = [
       },
     ],
     image: budgetapp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RMrobb1e/ralmbudgetapp",
     site_link: "https://ralmbudgetapp.vercel.app/",
   },
   {

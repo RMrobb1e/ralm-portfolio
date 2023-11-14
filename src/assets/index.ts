@@ -31,7 +31,8 @@ import budgetapp from "./budgetapp.png";
 import covid from "./covid.png";
 import cuisina from "./cuisina.png";
 import devconnector from "./devconnector.png";
-import revents from "./revents.png";
+import revents from "./revents.jpg";
+import ralm_shop from "./ralm-shop.jpg";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   cuisina,
   devconnector,
   revents,
+  ralm_shop,
 };
