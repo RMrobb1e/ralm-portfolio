@@ -236,8 +236,8 @@ const projects = [
       }
     ],
     image: figma_clone,
-    source_code_link: "https://github.com/RMrobb1e/ralm-revents",
-    site_link: "https://ralm-revents-c7c22.web.app/events"
+    source_code_link: "https://github.com/RMrobb1e/figma-clone",
+    site_link: "https://figma-clone-3sve-qjg4nnmou-rmrobbie.vercel.app/"
   },
   {
     name: "RALM - Shop",
