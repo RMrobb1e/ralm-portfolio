@@ -27,96 +27,97 @@ import {
   threejs,
   indra,
   ralm_shop,
-  figma_clone
+  figma_clone,
+  backdrop_wizard,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About"
+    title: "About",
   },
   {
     id: "work",
-    title: "Work"
+    title: "Work",
   },
   {
     id: "contact",
-    title: "Contact"
-  }
+    title: "Contact",
+  },
 ];
 
 const services = [
   {
     title: "Web Developer",
-    icon: web
+    icon: web,
   },
   {
     title: "SharePoint Developer",
-    icon: mobile
+    icon: mobile,
   },
   {
     title: "Frontend Developer",
-    icon: backend
+    icon: backend,
   },
   {
     title: "Backend Developer",
-    icon: creator
-  }
+    icon: creator,
+  },
 ];
 
 const technologies = [
   {
     name: "HTML 5",
-    icon: html
+    icon: html,
   },
   {
     name: "CSS 3",
-    icon: css
+    icon: css,
   },
   {
     name: "JavaScript",
-    icon: javascript
+    icon: javascript,
   },
   {
     name: "TypeScript",
-    icon: typescript
+    icon: typescript,
   },
   {
     name: "React JS",
-    icon: reactjs
+    icon: reactjs,
   },
   {
     name: "Redux Toolkit",
-    icon: redux
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind
+    icon: tailwind,
   },
   {
     name: "Node JS",
-    icon: nodejs
+    icon: nodejs,
   },
   {
     name: "MongoDB",
-    icon: mongodb
+    icon: mongodb,
   },
   {
     name: "Three JS",
-    icon: threejs
+    icon: threejs,
   },
   {
     name: "git",
-    icon: git
+    icon: git,
   },
   {
     name: "figma",
-    icon: figma
+    icon: figma,
   },
   {
     name: "docker",
-    icon: docker
-  }
+    icon: docker,
+  },
 ];
 
 const experiences = [
@@ -128,8 +129,8 @@ const experiences = [
     date: "August 2017 - August 2019",
     points: [
       "Worked as a Software Engineer with a SharePoint Developer Role",
-      "To develop a robust and user-friendly Solution with the collaboration of Corporate Solution department. Used ReactJS, React-Redux, JQuery, SharePoint Framework, REST API, HTML, CSS, Git, as a technology stack."
-    ]
+      "To develop a robust and user-friendly Solution with the collaboration of Corporate Solution department. Used ReactJS, React-Redux, JQuery, SharePoint Framework, REST API, HTML, CSS, Git, as a technology stack.",
+    ],
   },
   {
     title: "React Developer",
@@ -139,8 +140,8 @@ const experiences = [
     date: "August 2019 - March 2020",
     points: [
       'Worked as a Software Engineer with a Frontend Developer Role, for an "All in One shop Application" with a Customer Management, Shopping Cart, Product Ordering, etc. ',
-      "Used ReactJS, React-Redux, Mocha-ChaiJS, HTML, CSS, Perforce, as a technology stack."
-    ]
+      "Used ReactJS, React-Redux, Mocha-ChaiJS, HTML, CSS, Perforce, as a technology stack.",
+    ],
   },
   {
     title: "Web Developer",
@@ -150,8 +151,8 @@ const experiences = [
     date: "April 2020 - October 2021",
     points: [
       "Developed features and components for the bank including mobile app, back office application, and website. ",
-      "Used Polymer Litelement with a Webcomponents Framework and MochaJS and enzyme as Testing Utility framework."
-    ]
+      "Used Polymer Litelement with a Webcomponents Framework and MochaJS and enzyme as Testing Utility framework.",
+    ],
   },
   {
     title: "Fullstack Developer",
@@ -162,9 +163,9 @@ const experiences = [
     points: [
       "Modernized term deposit feature on one of the largest bank on Australia from scratch.",
       "Part of the discovery phase where creating estimate and architecting solution is included. Leads the development team demo in front of client with an audience of 20+ every sprint review.",
-      "Used React typescript with Context as the frontend layer of the application. Used Apollo GraphQL with NodeJS as the backend-for-frontend layer of the application."
-    ]
-  }
+      "Used React typescript with Context as the frontend layer of the application. Used Apollo GraphQL with NodeJS as the backend-for-frontend layer of the application.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -174,7 +175,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg"
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
@@ -182,7 +183,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg"
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -190,11 +191,33 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg"
-  }
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
 ];
 
 const projects = [
+  {
+    name: "RALM - Backdrop Wizard",
+    description:
+      "Built an AI image SaaS: strong image processing, secure payments, advanced search, and AI features: restoration, recoloring, object removal.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "red-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: backdrop_wizard,
+    source_code_link: "https://github.com/RMrobb1e/backdrop-wizard",
+    site_link: "https://backdrop-wizard.vercel.app/",
+  },
   {
     name: "RALM - Revents",
     description:
@@ -202,20 +225,20 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "semanticui",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "firebase",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: revents,
     source_code_link: "https://github.com/RMrobb1e/ralm-revents",
-    site_link: "https://ralm-revents-c7c22.web.app/events"
+    site_link: "https://ralm-revents-c7c22.web.app/events",
   },
   {
     name: "RALM - Figma Clone",
@@ -224,20 +247,20 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "nextjs",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "liveblocks",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: figma_clone,
     source_code_link: "https://github.com/RMrobb1e/figma-clone",
-    site_link: "https://figma-clone-3sve-qjg4nnmou-rmrobbie.vercel.app/"
+    site_link: "https://figma-clone-3sve-qjg4nnmou-rmrobbie.vercel.app/",
   },
   {
     name: "RALM - Shop",
@@ -246,20 +269,20 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "paypal",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: ralm_shop,
     source_code_link: "https://github.com/RMrobb1e/ralm-shop",
-    site_link: "https://ralm-shop.onrender.com/"
+    site_link: "https://ralm-shop.onrender.com/",
   },
   {
     name: "RALM - DevConnector",
@@ -268,20 +291,20 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "nodejs",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: devconnector,
     source_code_link: "https://github.com/",
-    site_link: "https://ralm-devconnector.herokuapp.com/"
+    site_link: "https://ralm-devconnector.herokuapp.com/",
   },
   {
     name: "RALM - BrewHaha",
@@ -290,20 +313,20 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "graphql",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "strapi",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: brewhaha,
     source_code_link: "https://github.com/",
-    site_link: "https://ralm-brewhaha.herokuapp.com/"
+    site_link: "https://ralm-brewhaha.herokuapp.com/",
   },
   {
     name: "RALM - Cuisina",
@@ -312,20 +335,20 @@ const projects = [
     tags: [
       {
         name: "axios",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "css3",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "restapi",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: cuisina,
     source_code_link: "https://github.com/RMrobb1e/ralmcuisina",
-    site_link: "https://ralmcuisina.vercel.app/#29159"
+    site_link: "https://ralmcuisina.vercel.app/#29159",
   },
   {
     name: "RALM - Budget App",
@@ -334,20 +357,20 @@ const projects = [
     tags: [
       {
         name: "javascript",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "html",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: budgetapp,
     source_code_link: "https://github.com/RMrobb1e/ralmbudgetapp",
-    site_link: "https://ralmbudgetapp.vercel.app/"
+    site_link: "https://ralmbudgetapp.vercel.app/",
   },
   {
     name: "RALM - Covid 19 Tracker",
@@ -356,21 +379,21 @@ const projects = [
     tags: [
       {
         name: "lit-element",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "lit-html",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "rapidapi",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: covid,
     source_code_link: "https://github.com/",
-    site_link: "https://app-tracker-robbie.herokuapp.com/"
-  }
+    site_link: "https://app-tracker-robbie.herokuapp.com/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

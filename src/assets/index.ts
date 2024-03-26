@@ -34,6 +34,7 @@ import devconnector from "./devconnector.png";
 import revents from "./revents.jpg";
 import ralm_shop from "./ralm-shop.jpg";
 import figma_clone from "./figma-clone.jpg";
+import backdrop_wizard from "./backdrop-wizard.jpg";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   devconnector,
   revents,
   ralm_shop,
-  figma_clone
+  figma_clone,
+  backdrop_wizard,
 };
