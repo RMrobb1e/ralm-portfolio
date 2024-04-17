@@ -243,7 +243,8 @@ const projects = [
   },
   {
     name: "RALM - Job Hunter",
-    description: "Created a mobile application for job hunters.",
+    description:
+      "Created a mobile application for job hunters. With job search, details qualification, responsibilities and apply feature.",
     tags: [
       {
         name: "react-native",
