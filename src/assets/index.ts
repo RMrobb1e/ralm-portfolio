@@ -35,6 +35,7 @@ import revents from "./revents.jpg";
 import ralm_shop from "./ralm-shop.jpg";
 import figma_clone from "./figma-clone.jpg";
 import backdrop_wizard from "./backdrop-wizard.jpg";
+import ralm_jobs from "./ralm-jobs.jpg";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   ralm_shop,
   figma_clone,
   backdrop_wizard,
+  ralm_jobs,
 };

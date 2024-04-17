@@ -27,6 +27,7 @@ import {
   threejs,
   indra,
   ralm_shop,
+  ralm_jobs,
   figma_clone,
   backdrop_wizard,
 } from "../assets";
@@ -239,6 +240,27 @@ const projects = [
     image: revents,
     source_code_link: "https://github.com/RMrobb1e/ralm-revents",
     site_link: "https://ralm-revents-c7c22.web.app/events",
+  },
+  {
+    name: "RALM - Job Hunter",
+    description: "Created a mobile application for job hunters.",
+    tags: [
+      {
+        name: "react-native",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ralm_jobs,
+    source_code_link: "https://github.com/RMrobb1e/ralm-jobs-native",
+    site_link: "https://github.com/RMrobb1e/ralm-jobs-native",
   },
   {
     name: "RALM - Figma Clone",
